@@ -17,7 +17,8 @@ public class SetUp {
         caps.setCapability("platformVersion","14");
         caps.setCapability("appPackage","com.google.android.calculator");
         caps.setCapability("appActivity","com.android.calculator2.Calculator");
-        caps.setCapability("app","E:\\Calculator.apk");
+       // caps.setCapability("app","E:\\Calculator.apk");
+        caps.setCapability("app",System.getProperty("user.dir"+"./src/test/resources/Calculator.apk"));
         caps.setCapability("automationName","UiAutomator2");
 
         URL url =new URL("http://127.0.0.1:4723/");
