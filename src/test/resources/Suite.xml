@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Calculator App">
+    <test name ="Calculator App">
+        <classes>
+            <class name ="CalcRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
